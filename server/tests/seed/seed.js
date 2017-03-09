@@ -10,8 +10,8 @@ const users =[{
      email:'andrew@example.com',
      password:'userOnePass',
      tokens: [{
-             access:'auth',
-             token : jwt.sign({_id: userOneId,access:'auth'}, 'abc123').toString()
+     access:'auth',
+     token : jwt.sign({_id: userOneId,access:'auth'}, 'abc123').toString()
      }]
     },{ 
       _id:userTwoId,
